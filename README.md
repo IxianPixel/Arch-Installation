@@ -20,11 +20,12 @@ lsblk
 * `mount <device> /mnt/home`
 
 ### Pacstrap
-* `pacstrap /mnt base base-sevel`
+* `pacstrap /mnt base base-devel`
 
 # Configuration
 ### Generate FSTAB
 Generation: `genfstab -p /mnt >> /mnt/etc/fstab`
+
 Output fstab: `cat /mnt/etc/fstab`
 
 ### chroot into installation
